@@ -1,6 +1,8 @@
 /* Main */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 body{
+    width: 100vw;
+    height: 100wh;
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat", sans-serif;
@@ -9,7 +11,7 @@ body{
 
 /* Nav bar */
 
-nav{
+.container{
     font-size: small;
     display: flex;
     justify-content: space-around;
@@ -110,9 +112,11 @@ nav .nav-links ul li a{
     margin: 2rem 5rem;
     font-size: larger;
 }
+
 .topic-title h1{
     margin: 0rem;
 }
+
 .topic-title p{
     font-size:medium;
     margin: 0.5rem 0rem;
@@ -130,10 +134,11 @@ nav .nav-links ul li a{
 .topic-card-text{
     font-size: 1rem;
     width: 65vw;
+    margin: 0rem 0.5rem;
 }
 
 .topic-button{
-    margin: 0px;
+    margin: 0rem 0.5rem;
     padding: 0rem;
     width: 8rem;
     height: 2rem;
@@ -144,7 +149,7 @@ nav .nav-links ul li a{
 
 .topic-courses{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
     width: auto;
     height: auto;
@@ -154,7 +159,8 @@ nav .nav-links ul li a{
 .course-card{
     height: auto;
     width: 14rem;
-    margin: .5rem 0rem;
+    margin: 1rem 0rem;
+
 }
 
 .course-img{
@@ -195,17 +201,11 @@ nav .nav-links ul li a{
     .shopping-cart{
       display: none;
     }
-    #cn5{
-        display: none;
-    }
 }
 
 @media screen and (max-width: 1170px ){
     .nl1{
       display: none;
-    }
-    #cn4{
-        display: none;
     }
     .topic-card{
         align-items: center;
@@ -216,16 +216,9 @@ nav .nav-links ul li a{
     .nl2{
       display: none;
     }
-
-    #cn3{
-        display: none;
-    }
 }
 
 @media screen and (max-width: 780px ){
-    #cn2{
-        display: none;
-    }
     .nl3{
       display: none; 
     }
