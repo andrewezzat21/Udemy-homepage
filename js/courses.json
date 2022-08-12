@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+    "title": "Learn Python: The Complete Python Programming Course",
+    "author": "Avinash Jain,The Codex",
+    "rating": 4.4,
+    "price": "E£679.99"
+  },
+  {
+    "id": 2,
+    "image": "https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+    "title": "Learning Python for Data Analysis and Visualization",
+    "author": "Jose Portilla",
+    "rating": 4.4,
+    "price": "E£1,599.99"
+  },
+  {
+    "id": 3,
+    "image": "https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
+    "title": "Python for Beginners - Learn Programming from scratch",
+    "author": "Edwin Diaz, Coding FAcutly Solutaions",
+    "rating": 4.4,
+    "price": "E£679.99"
+  },
+  {
+    "id": 4,
+    "image": "https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg",
+    "title": "Learn Python: Python for Beginners",
+    "author": "Abrar Hussain",
+    "rating": 4.3,
+    "price": "E£319.99"
+  },
+  {
+    "id": 5,
+    "image": "https://img-c.udemycdn.com/course/480x270/449532_2aa9_7.jpg",
+    "title": "Python Beyond the Basics - Object-Oriented Programming",
+    "author": "Infinite Skills",
+    "rating": 4.4,
+    "price": "E£519.99"
+  }
+]
